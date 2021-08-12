@@ -1,0 +1,89 @@
+.clear{
+    clear: both;
+}
+
+#advantage{
+    text-align: center;
+    position: relative;
+}
+
+.content-header{
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.pd-content .content-slogan{
+    font-size: 18px;
+    color: #959595;
+    padding: 30px 0 ;
+    line-height: 1.6;
+}
+
+#advantage .content-section img{
+    margin-bottom: 16px;
+}
+
+#advantage .content-section{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.content-section .advantage-descrition{
+    position: relative;
+    transition: color 0.5s;
+}
+
+.content-section .advantage-descrition .item-icon-hover{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.content-section .advantage-descrition .item-icon{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.content-section .advantage-descrition:hover .item-icon-hover{
+    opacity: 1;
+}
+
+.content-section .advantage-descrition:hover .item-icon{
+    opacity: 0;
+}
+
+.content-section .advantage-descrition:hover{
+    color: #1cbbb4;
+    cursor: pointer;
+}
+
+.content-section .advantage-descrition:hover .readmore{
+    color: #1cbbb4;
+}
+
+.content-section .item-header{
+    font-size: 24px;
+    font-weight: 100;
+    padding-bottom: 5px;
+}
+
+.content-section .item-description{
+    color: #959595;
+    line-height: 1.4;
+    padding-bottom: 15px;
+}
+
+.content-section .readmore{
+    color: #acacac;
+    font-size: 13px;
+}
+
+
+.content-section .advantage-icon::before{
+    margin-top: 2px;
+}
+

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    color: #464646;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+#main{
+    position: relative;
+    overflow-x: hidden;
+}
+
+::selection{
+    background-color: #1cbbb4!important;
+    color: #fff;
+}
+
+.bdl-1{
+    border-left: 1px solid #acacac;
+}
+
+.pd-188{
+    padding-left: 12%!important;
+    padding-right: 12%!important;
+}
+
+.pd-rl24{
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.pd-content{
+    padding-left: 224px;
+    padding-right: 224px;
+    padding-top: 46px;
+    padding-bottom: 60px;
+}
+
+.bg-op8{
+    background-color: rgba(28, 187, 180, 0.8);
+    color: #fff;
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.col{
+    float: left;
+    padding: 0 15px;
+}
+
+.col-1{
+    width: 100%;
+}
+
+.col-6{
+    width: calc(100%/6);
+}
+
+.col-12{
+    width: calc(100%/12);
+}
+
+.col-3{
+    width: calc(100%/3);
+}
+
+.col-4{
+    width: 25%;
+}
+
+.col-6{
+    width: calc(100%/6);
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.anm-show{
+    animation-name: show;
+    animation-duration: 1.5s;
+}
+
+@keyframes show{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.anm-fadeInUp{
+    position: relative;
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+}
+
+@keyframes fadeInUp{
+    from{
+        top: 50px;
+        opacity: 0;
+    }
+    to{
+        top: 0;
+        opacity: 1;
+    }
+}
+
+/* btn up */
+.gotop-btn{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: #acacac;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    opacity: 0;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, #1cbbb4);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, #06f7ec);
+}

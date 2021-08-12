@@ -1,0 +1,63 @@
+.header-hov:hover{
+    cursor: pointer;
+    color: #1cbbb4;
+}
+
+#main #header-contact{
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid #1cbbb4;
+    color: #acacac;
+    padding: 13px 12%;
+}
+
+/* left header */
+#header-contact .left-info{   
+    display: flex;
+}
+
+#header-contact .right-info{
+    display: flex;
+}
+
+#header-contact p{
+    margin: 0;
+}
+
+#header-contact p:hover, #header-contact p:hover a{
+    color: #1cbbb4;
+}
+
+#header-contact a{
+    color: #acacac;
+    text-decoration: none;
+}
+
+#header-contact .mail{
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 1px solid #acacac;
+}
+
+#header-contact .left-info i{
+    margin-right: 6px;
+}
+
+/* right-header */
+#header-contact .right-info p{
+    padding: 0 20px;
+    margin-right: 20px;
+    border-right: 1px solid #acacac;
+    border-left: 1px solid #acacac ;
+}
+
+#header-contact .right-info .bi{
+    padding: 0 10px;
+}
+
+#header-contact .right-info .bi:last-child{
+    padding-right: 0px
+}
+
+

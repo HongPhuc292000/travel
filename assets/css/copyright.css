@@ -1,0 +1,28 @@
+#copyright{
+    background-color: #1cbbb4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#copyright li{
+    display: inline-block;
+    list-style: none;
+    color: #fff;
+}
+
+#copyright li a{
+    text-decoration: none;
+    border-right: 2px solid #fff;
+    color: #fff;
+    padding: 0 5px;
+}
+
+#copyright .fw-b{
+    font-weight: 600;
+}
+
+#copyright .bd-n{
+    border-right: none!important;
+}
+

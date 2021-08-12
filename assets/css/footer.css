@@ -1,0 +1,156 @@
+#footer{
+    padding-top: 35px;
+    padding-bottom: 45px;
+    background-color: #252525;
+}
+
+#footer .footer-logo{
+    margin-left: 60px;
+}
+
+#footer .font-14{
+    color: #959595;
+    margin-bottom: 5px;
+}
+
+#footer::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#footer .footer-heading{
+    color: #acacac;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#footer .travel-footer-item{
+    display: block;
+    color: #959595;
+    padding: 10px 20px 10px 0;
+    border-bottom: 1px solid #959595;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#footer .travel-footer-item i{
+    float: right;
+}
+
+#footer .socials-list{
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#footer .socials-list li{
+    list-style: none;
+    position: relative;
+}
+
+#footer .socials-list a:hover{
+    top: -39px;
+    background-position: bottom;
+}
+
+#footer .socials-list a{
+    width: 39px;
+    height: 39px;
+    display: block;
+    background-position: left top;
+    background-repeat: no-repeat;
+    transition: all 0.3s;
+}
+
+#footer .nav1 a{
+    background: url('../img/footer/social_ic1.png');
+}
+
+#footer .nav2 a{
+    background: url('../img/footer/social_ic2.png');
+}
+
+#footer .nav3 a{
+    background: url('../img/footer/social_ic3.png');
+}
+
+#footer .nav4 a{
+    background: url('../img/footer/social_ic4.png');
+}
+
+#footer .nav5 a{
+    background: url('../img/footer/social_ic5.png');
+}
+
+#footer .nav6 a{
+    background: url('../img/footer/social_ic6.png');
+}
+
+#footer .twitter-text{
+    padding: 8px 0;
+    color: #959595;
+}
+
+#footer .bt-1{
+    border-bottom: 1px solid #959595;
+}
+
+#footer .twitter-text a{
+    color: #6dcff6;
+    text-decoration: none;
+}
+
+.font-12{
+    font-size: 12px;
+    color: #464646;
+}
+
+#footer .newsletter-p{
+    font-size: 12px;
+    color: #959595;
+    padding-bottom: 5px;
+}
+
+#footer .newsletter-email{
+    background: url('../img/footer/newsletter.png') right no-repeat #101010;
+    padding: 10px 50px 10px 10px;
+    border: 1px solid #555555;
+    color: #555555;
+}
+
+#footer .red-btn{
+    background-color: #fb000d;
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 20px;
+    font-weight: 600;
+    box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.2) inset;
+    border: none;
+    display: block;
+    margin-top: 15px;
+}
+
+#footer .red-btn:hover{
+    background-color: #00a99d;
+    cursor: pointer;
+}
+
+#footer .footer-phone{
+    color: #1cbbb4;
+    text-decoration: none;
+    font-size: 26px;
+    display: block;
+}
+
+#footer .footer-email{
+    color: #464646;
+}
+
+#footer .travel-footer-item:hover, #footer .readmore:hover, #footer .twitter-text a:hover, #footer .footer-email:hover{
+    color: #1cbbb4;
+    cursor: pointer;
+}

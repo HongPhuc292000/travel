@@ -1,0 +1,147 @@
+#banner{
+    position: relative;
+    left: 0;
+    right: 0;
+    padding-top: 400px;
+    background: url('../img/slider.jpg') top center/cover;
+}
+
+#banner .banner-text{
+    position: relative;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    animation-name: posi;
+  	animation-duration: 1s;
+    display: none;
+}
+
+@keyframes posi {
+    from {left: 88%;opacity: 0;}
+    to {left: 0%;opacity: 1;}
+}
+
+#banner .banner-text h3{
+    font-size: 30px;
+}
+
+#banner .banner-text h1{
+    font-size: 45px;
+    font-weight: 750;
+}
+
+#banner .banner-text p{
+    font-size: 18px;
+}
+
+.dotsbox{
+	position: relative;
+	left: 0;
+	bottom: 20px;
+	cursor: pointer;
+}
+
+.dot{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 3px solid #b5b5b5;
+    background-color: #fff;
+	border-radius: 50%;
+	margin: 0 2px;
+	cursor: pointer;
+}
+
+.active, .dot:hover{
+	border-color:#1cbbb4;
+}
+
+#banner .service-bar{
+    position: relative;
+    font-size: 0;
+}
+
+.service-bar-item{
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 30px 14px 30px;
+    background-color: #1cbbb4;
+    cursor: pointer;
+}
+
+.service-bar-item:hover a{
+    color: #1cbbb4;
+    background-color: #fafafa;
+}
+
+#banner .service-form{
+    padding: 30px;
+    background-color: #fafafa;
+    display: none;
+    border-bottom: 3px solid #1cbbb4;
+    font-size: 0;
+}
+
+#banner .form-input{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.form-input label{
+    display: block;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.form-input .input-arrowDown{
+    position: relative;
+    display: block;
+    height: 40px;
+    padding: 9px 20px;
+    border: 1px solid #c3c3c3;
+    color: #c3c3c3;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.form-input .input-arrowDown::after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 7px;
+    background: url('../img/icon/arrow_down.png') 0 0 no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 17px;
+}
+
+.form-input .input-date{
+    padding: 9px 20px;
+    border: 1px solid #c3c3c3;
+    color: #c3c3c3;
+    cursor: pointer;
+}
+
+#banner .btn-search{
+    background-color: #00a99d;
+    color: #fff;
+    padding: 12px 36px;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.2) inset;
+    display: inline-block;
+    font-size: 14px;
+}
+
+#banner .btn-search:hover{
+    background-color: #fb000d;
+    cursor: pointer;
+}
+
+

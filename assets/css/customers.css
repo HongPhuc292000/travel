@@ -1,0 +1,101 @@
+#customers{
+    padding:  46px 224px 0 224px;
+    background: url('../img/happy_customer.jpg') center / cover;
+    display: flex;
+    position: relative;
+    line-height: 1.6;
+}
+
+#customers .customer-people{
+    flex: 1;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    animation-name: bay;
+    animation-duration: 1.5s;
+    display: block;
+    padding: 0 15px;
+}
+
+#customers img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 180px;
+    display: block;
+}
+
+@keyframes bay{
+    from{
+        left: -100%;
+    }
+    to{
+        left: 0%;
+    }
+}
+
+#customers .text-customer{
+    flex: 1;
+    padding: 0 15px;
+}
+
+#customers .customer-slogan{
+    padding-bottom: 38px;
+    font-weight: 600;
+}
+
+#customers p:nth-child(3){
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+#customers p:nth-child(4){
+    margin-bottom: 30px;
+    line-height: 1.6;;
+}
+
+#customers .customer-bold{
+    font-weight: 600;
+}
+
+#customers .bar{
+    position: relative;
+    background-color: #fff;
+    height: 13px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#customers .small-bar{
+    background-color: #1cbbb4;
+    height: 13px;
+    width: var(--percent);
+    animation: growth ease-in 1.5s;
+}
+
+@keyframes growth{
+    from{
+        opacity: 0.6;
+        width: calc(var(--percent) - 50%);
+    }
+    to{
+        opacity: 1;
+        width: var(--percent);
+    }
+}
+
+#customers span{
+    position: absolute;
+    top: -22px;
+    left: calc(var(--percent) - 5%);
+    animation-name: nbRun;
+    animation-duration: 1.5s;
+}
+
+@keyframes nbRun{
+    from{
+        left: 0;
+    }
+    to{
+        left: calc(var(--percent) - 5%);
+    }
+}

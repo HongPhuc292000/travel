@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/header_contact.css">
+    <link rel="stylesheet" href="./assets/css/nav_header.css">
+    <link rel="stylesheet" href="./assets/css/banner.css">
+    <link rel="stylesheet" href="./assets/css/advantage.css">
+    <link rel="stylesheet" href="./assets/css/parallax.css">
+    <link rel="stylesheet" href="./assets/css/customers.css">
+    <link rel="stylesheet" href="./assets/css/partner.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/copyright.css">
+    <link rel="stylesheet" href="./assets/css/popular.css">
+    <link rel="stylesheet" href="./assets/fonts/bootstrap-icons-1.5.0/bootstrap-icons.css">
+    <title>My Travel</title>
+</head>
+<body>
+    <div id="main">
+        <!-- start header-contact -->
+        <div id="header-contact">
+            <div class="left-info">
+                <p class="mail header-hov">
+                    <i class="bi bi-envelope-fill"></i>
+                    <a href="mailto:hongphuc292000@gmail.com">info@123corp.vn</a>
+                </p>
+                <p class="phone-number header-hov">
+                    <i class="bi bi-phone-vibrate-fill"></i>
+                    <a href="tel: +84 334555246">(+84) 28. 38 12 17 19</a>
+                </p>
+            </div>
+                
+            <div class="right-info">
+                <p class="languages header-hov">
+                    <img src="./assets/img/language/flag_en.png" alt="">
+                    English
+                    <i class="bi bi-chevron-down"></i>
+                </p>
+                <div class="socials-list">
+                    <i class="bi bi-facebook header-hov"></i>
+                    <i class="bi bi-twitter header-hov"></i>
+                    <i class="bi bi-google header-hov"></i>
+                    <i class="bi bi-instagram header-hov"></i>
+                    <i class="bi bi-youtube header-hov"></i>
+                </div>
+            </div>
+        </div>
+        <!-- end header-contact -->
+
+        <!-- start header-nav -->
+        <div id="header-nav" class="pd-188">
+            <img src="./assets/img/Logo.png" alt="" class="header-logo">
+            <ul class="right-nav">
+                <li>Home</li>
+                <li class="pd-rl24">About Us</li>
+                <li class="pd-rl24">Gallery</li>
+                <li class="pd-rl24">Hotel</li>
+                <li class="pd-rl24">Blog</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+        <!-- end header-nav -->
+
+        <!-- start banner -->
+        <div id="banner" class="pd-188">
+            <div class="banner-text">
+                <h3 class="bg-op8">Welcome To our</h3><br>
+                <h1 class="bg-op8">My Travel</h1><br>
+                <p class="bg-op8">Lorem ipsum dolor eleifend option congue nihil imperdiet doming id quod.</p>
+            </div>
+
+            <div class="banner-text">
+                <h3 class="bg-op8">7 - Day Tour</h3><br>
+                <h1 class="bg-op8">AMAZING CARIBBEAN</h1><br>
+                <p class="bg-op8">Lorem ipsum dolor eleifend option congue nihil imperdiet doming id quod.</p>
+            </div>
+
+            <div class="banner-text">
+                <h3 class="bg-op8">5 Days In</h3><br>
+                <h1 class="bg-op8">PARIS (Capital Of World)</h1><br>
+                <p class="bg-op8">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod.</p>
+            </div>
+
+            <div class="banner-text">
+                <h3 class="bg-op8">12 - Day Cruises</h3><br>
+                <h1 class="bg-op8">FROM GREECE TO SPAIN</h1><br>
+                <p class="bg-op8">MEDITERRANEAN - 12 - Day Cruises By "GRAND VICTORIA III" Cruise Liner.</p>
+            </div>
+
+            <div class="dotsbox">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+
+            <ul class="service-bar">
+                <li onclick="showPanel(0)" class="service-bar-item">Flights</li>
+                <li onclick="showPanel(1)" class="service-bar-item">Hotels</li>
+                <li onclick="showPanel(2)" class="service-bar-item">Cars</li>
+                <li onclick="showPanel(3)" class="service-bar-item">Cruises</li>
+            </ul>
+
+            <form onclick="showPanel(0)" class="service-form" action="">
+                <div class="form-input col-6">
+                    <label for="">Flying from:</label>
+                    <span class="input-arrowDown">City or Airport</span>
+                </div>
+                <div class="form-input col-6">
+                    <label for="">To:</label>
+                    <span class="input-arrowDown">City or Airport</span>
+                </div>
+                <div class="form-input col-6">
+                    <label for="">Departing:</label>
+                    <input class="input-date col-1" type="date" name="" id="">
+                </div>
+                <div class="form-input col-6">
+                    <label for="">Returning:</label>
+                    <input class="input-date col-1" type="date" name="" id="">
+                </div>
+                <div class="form-input col-12">
+                    <label for="">Adult:</label>
+                    <span class="input-arrowDown col-1">1</span>
+                </div>
+                <div class="form-input col-12">
+                    <label for="">Child:</label>
+                    <span class="input-arrowDown col-1">1</span>
+                </div>
+                <div class="form-input col-6">
+                    <input class="btn-search col-1" type="submit" value="SEARCH">
+                </div>
+            </form>
+            <form onclick="showPanel(1)" class="service-form" action="">
+                <div class="form-input col-3">
+                    <label for="">City or Hotel Name:</label>
+                    <span class="input-arrowDown col-1">Enter a destination or hotel name</span>
+                </div>
+
+                <div class="form-input col-6">
+                    <label for="">Check-In:</label>
+                    <input class="input-date col-1" type="date" name="" id="">
+                </div>
+
+                <div class="form-input col-6">
+                    <label for="">Check-Out:</label>
+                    <input class="input-date col-1" type="date" name="" id="">
+                </div>
+
+                <div class="form-input col-6">
+                    <label for="">Adult:</label>
+                    <span class="input-arrowDown col-1">City or Airport</span>
+                </div>
+
+                <div class="form-input col-6">
+                    <input class="btn-search col-1" type="submit" value="SEARCH">
+                </div>
+            </form>
+            <form onclick="showPanel(2)" class="service-form" action="">
+                <div class="form-input col-6">
+                    <label for="">Country:</label>
+                    <span class="input-arrowDown col-1">Enter</span>
+                </div>
+
+                <div class="form-input col-6">
+                    <label for="">City:</label>
+                    <span class="input-arrowDown col-1">Enter</span>
+                </div>
+
+                <div class="form-input col-6">
+                    <label for="">Location:</label>
+                    <span class="input-arrowDown col-1">Enter</span>
+                </div>
+
+                <div class="form-input col-6">
+                    <label for="">Pick up Date:</label>
+                    <input class="input-date col-1" type="date" name="" id="">
+                </div>
+
+                <div class="form-input col-6">
+                    <label for="">Drop off Date:</label>
+                    <input class="input-date col-1" type="date" name="" id="">
+                </div>
+
+                <div class="form-input col-6">
+                    <input class="btn-search col-1" type="submit" value="SEARCH">
+                </div>
+            </form>
+            <form onclick="showPanel(3)" class="service-form" action="">
+                <div class="form-input col-6">
+                    <label for="">Sail To:</label>
+                    <span class="input-arrowDown col-1">Enter</span>
+                </div>
+
+                <div class="form-input col-6">
+                    <label for="">Sail From:</label>
+                    <span class="input-arrowDown col-1">Enter</span>
+                </div>
+
+                <div class="form-input col-6">
+                    <label for="">Start Date:</label>
+                    <input class="input-date col-1" type="date" name="" id="">
+                </div>
+
+                <div class="form-input col-6">
+                    <label for="">End of Date:</label>
+                    <input class="input-date col-1" type="date" name="" id="">
+                </div>
+
+                <div class="form-input col-6">
+                    <label for="">Cruise Ship:</label>
+                    <span class="input-arrowDown col-1">Enter</span>
+                </div>
+
+                <div class="form-input col-6">
+                    <input class="btn-search col-1" type="submit" value="SEARCH">
+                </div>
+            </form>
+        </div>
+        <!-- end banner -->
+        
+        <!-- start advantages -->
+        <div id="advantage" class="pd-content pd-188 anm-show">
+            <h2 class="content-header anm-fadeInUp">WHY WE ARE THE BEST</h2>
+            <p class="content-slogan anm-fadeInUp">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh<br>euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <div class="content-section">
+                <div class="col col-4 advantage-descrition advantage-descrition">
+                    <img src="./assets/img/advantage_icon/why1.png" class="item-icon" alt="">
+                    <img src="./assets/img/advantage_icon/why1_hover.png" class="item-icon-hover" alt="">
+                    <h4 class="item-header">Amazing Travel</h4>
+                    <p class="item-description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+                    <p class="readmore">Read More <i class="advantage-icon bi bi-caret-right-fill"></i></p>
+                </div>
+
+                <div class="col col-4 advantage-descrition">
+                    <img src="./assets/img/advantage_icon/why2.png" class="item-icon" alt="">
+                    <img src="./assets/img/advantage_icon/why2_hover.png" class="item-icon-hover" alt="">
+                    <h4 class="item-header">Discover</h4>
+                    <p class="item-description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+                    <p class="readmore">Read More <i class="advantage-icon bi bi-caret-right-fill"></i></p>
+                </div>
+
+                <div class="col col-4 advantage-descrition">
+                    <img src="./assets/img/advantage_icon/why3.png" class="item-icon" alt="">
+                    <img src="./assets/img/advantage_icon/why3_hover.png" class="item-icon-hover" alt="">
+                    <h4 class="item-header">Book Your Trip</h4>
+                    <p class="item-description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+                    <p class="readmore">Read More <i class="advantage-icon bi bi-caret-right-fill"></i></p>
+                </div>
+
+                <div class="col col-4 advantage-descrition">
+                    <img src="./assets/img/advantage_icon/why4.png" class="item-icon" alt="">
+                    <img src="./assets/img/advantage_icon/why4_hover.png" class="item-icon-hover" alt="">
+                    <h4 class="item-header">Nice Support</h4>
+                    <p class="item-description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+                    <p class="readmore">Read More <i class="advantage-icon bi bi-caret-right-fill"></i></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!-- end advantages -->
+        
+        <!-- start price -->
+        <div class="parallax pd-188">
+            <div class="parallax-content">
+                <h5 class="header-parallax">Caucasus Vacation Packages</h5>
+                <p class="des-parallax">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+                <div class="info-price">
+                    From: Khazbegi (Goergia)<span class="strong">$159.00 </span><span class="thin">person</span>
+                </div>
+            </div>
+            <input type="submit" value="Details" class="red-btn">
+        </div>
+        <!-- end price -->
+
+        <!-- start popular -->
+        <div id="popular" class="pd-content pd-188 anm-show">
+            <div class="txt-center">
+                <h2 class="content-header anm-fadeInUp">POPULAR CRUISES</h2>
+                <p class="content-slogan anm-fadeInUp">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh<br>euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            </div>
+            <div class="popular-content">
+                <div class="col col-3 popular-item">
+                    <div class="img-container">
+                        <img src="./assets/img/pulpular/popular01.jpg" alt="" class="popular-img col-1">
+                        <div class="img-hover">
+                            <div class="popular-text-img">
+                                <span class="text-header-hover">Bahamas</span><span class="popular-time-hover">17 Deal Offers</span>
+                                <p>Lorem ipsum dolor sit amet, concateus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular-item-text">
+                        <div class="popular-text-top">
+                            <span class="text-header">Bahamas</span><span class="popular-time">7 Nigth Tuor</span>
+                        </div>
+                        <p class="popular-text-middle">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming.</p>
+                        <div class="popular-text-bottom col-1">
+                            <div class="starsbox">
+                                <img src="./assets/img/icon/star1.png" class="star"></img>
+                                <img src="./assets/img/icon/star1.png" class="star"></img>
+                                <img src="./assets/img/icon/star1.png" class="star"></img>
+                                <img src="./assets/img/icon/star1.png" class="star"></img>
+                                <img src="./assets/img/icon/star2.png" class="star"></img>
+                            </div>
+                            <span class="font-12">-18 Reviews</span>
+
+                            <a href="#">SEE ALL</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-3 popular-item">
+                    <div class="img-container">
+                        <img src="./assets/img/pulpular/popular02.jpg" alt="" class="popular-img col-1">
+                        <div class="img-hover">
+                            <div class="popular-text-img">
+                                <span class="text-header-hover">Mediterranean</span><span class="popular-time-hover">17 Deal Offers</span>
+                                <p>Lorem ipsum dolor sit amet, concateus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular-item-text">
+                        <div class="popular-text-top">
+                            <span class="text-header">Bahamas</span><span class="popular-time">18 Nigth Tuor</span>
+                        </div>
+                        <p class="popular-text-middle">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming.</p>
+                        <div class="popular-text-bottom col-1">
+                            <div class="starsbox">
+                                <img src="./assets/img/icon/star1.png" class="star"></img>
+                                <img src="./assets/img/icon/star1.png" class="star"></img>
+                                <img src="./assets/img/icon/star1.png" class="star"></img>
+                                <img src="./assets/img/icon/star1.png" class="star"></img>
+                                <img src="./assets/img/icon/star1.png" class="star"></img>
+                            </div>
+                            <span class="font-12">-168 Reviews</span>
+
+                            <a href="#">SEE ALL</a>
+                        </div>          
+                    </div>
+                </div>
+
+                <div class="col col-3 popular-item">
+                    <div class="img-container">
+                        <img src="./assets/img/pulpular/popular03.jpg" alt="" class="popular-img col-1">
+                        <div class="img-hover">
+                            <div class="popular-text-img">
+                                <span class="text-header-hover">Greece</span><span class="popular-time-hover">17 Deal Offers</span>
+                                <p>Lorem ipsum dolor sit amet, concateus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular-item-text">
+                        <div class="popular-text-top">
+                            <span class="text-header">Bahamas</span><span class="popular-time">6 Nigth Tuor</span>
+                        </div>
+                        <p class="popular-text-middle">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming.</p>
+                        <div class="popular-text-bottom">
+                            <div class="starsbox">
+                                <img src="./assets/img/icon/star1.png" class="star"></img>
+                                <img src="./assets/img/icon/star1.png" class="star"></img>
+                                <img src="./assets/img/icon/star1.png" class="star"></img>
+                                <img src="./assets/img/icon/star1.png" class="star"></img>
+                                <img src="./assets/img/icon/star2.png" class="star"></img>
+                            </div>
+                            <span class="font-12">-16 Reviews</span>
+
+                            <a href="#">SEE ALL</a>
+                        </div>         
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+                
+            </div>
+            <div class="dotsbox-popular col-1 txt-center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        <!-- end popular -->
+
+        <!-- start customers -->
+        <div id="customers" class="text-white pd-188">
+            <div class="customer-people">
+                <img src="./assets/img/people_happy.png" alt="">
+            </div>
+            
+            <div class="text-customer">
+                <h2 class="content-header anm-fadeInUp">HAPPY CUSTOMERS</h2>
+                <p class="customer-slogan anm-fadeInUp">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, set amet.</p>
+                <p class="anm-fadeInUp">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh oui- sod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit dolore magna aliquam erat voutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit..</p>
+                <p class="anm-fadeInUp">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euisod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                <div class="anm-show">
+                    <p class="customer-bold" class="customer-bold">Flights</p>
+                    <div class="bar" style="--percent: 94%">
+                        <span class="customer-bold">94%</span>
+                        <div class="small-bar"></div>
+                    </div>
+                </div>
+
+                <div class="anm-show">
+                    <p class="customer-bold">Hotels</p>
+                    <div class="bar" style="--percent: 87%">
+                        <span class="customer-bold">87%</span>
+                        <div class="small-bar"></div>
+                    </div>
+                </div>
+
+                <div class="anm-show">
+                    <p class="customer-bold">Cars</p>
+                    <div class="bar" style="--percent: 48%">
+                        <span class="customer-bold">48%</span>
+                        <div class="small-bar"></div>
+                    </div>
+                </div>
+                
+                <div class="anm-show">
+                    <p class="customer-bold">Cruises</p>
+                    <div class="bar" style="--percent: 51%">
+                        <span class="customer-bold">51%</span>
+                        <div class="small-bar"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- end customers -->
+
+        <!-- start partners -->
+        <div id="partners" class="pd-188 anm-show">
+            <div class="partner-item col col-6">
+                <img src="./assets/img/partners/partner1.jpg" alt="" class="partner-img">
+                <img src="./assets/img/partners/partner1_hover.jpg" alt="" class="partner-img-hover">
+            </div>
+
+            <div class="partner-item col col-6">
+                <img src="./assets/img/partners/partner2.jpg" alt="" class="partner-img">
+                <img src="./assets/img/partners/partner2_hover.jpg" alt="" class="partner-img-hover">
+            </div>
+
+            <div class="partner-item col col-6">
+                <img src="./assets/img/partners/partner3.jpg" alt="" class="partner-img">
+                <img src="./assets/img/partners/partner3_hover.jpg" alt="" class="partner-img-hover">
+            </div>
+
+            <div class="partner-item col col-6">
+                <img src="./assets/img/partners/partner4.jpg" alt="" class="partner-img">
+                <img src="./assets/img/partners/partner4_hover.jpg" alt="" class="partner-img-hover">
+            </div>
+
+            <div class="partner-item col col-6">
+                <img src="./assets/img/partners/partner5.jpg" alt="" class="partner-img">
+                <img src="./assets/img/partners/partner5_hover.jpg" alt="" class="partner-img-hover">
+            </div>
+
+            <div class="partner-item col col-6">
+                <img src="./assets/img/partners/partner6.jpg" alt="" class="partner-img">
+                <img src="./assets/img/partners/partner6_hover.jpg" alt="" class="partner-img-hover">
+            </div>
+        </div>
+        <!-- end partners -->
+
+        <!-- start footer -->
+        <div id="footer" class="pd-188">
+            <div class="col col-4">
+                <img src="./assets/img/Logo.png" alt="" class="header-logo footer-logo">
+                <p class="font-14">Nam liber tempor cum soluta nobis option congue nihil imperdiet doming id quod mazim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                <a class="readmore font-14">Read More <i class="advantage-icon bi bi-caret-right-fill"></i></a>
+            </div>
+
+            <div class="col col-4">
+                <h5 class="footer-heading">Travel Specialists</h5>
+                <a href="#" class="travel-footer-item">First Class Flights <i class="bi bi-caret-right-fill"></i></a>
+                <a href="#" class="travel-footer-item">Accessible Travel <i class="bi bi-caret-right-fill"></i></a>
+                <a href="#" class="travel-footer-item">Amazing Cruises <i class="bi bi-caret-right-fill"></i></a>
+                <ul class="socials-list">
+                    <li class="nav1"><a href="#" class="social-item"></a></li>
+                    <li class="nav2"><a href="#" class="social-item"></a></li>
+                    <li class="nav3"><a href="#" class="social-item"></a></li>
+                    <li class="nav4"><a href="#" class="social-item"></a></li>
+                    <li class="nav5"><a href="#" class="social-item"></a></li>
+                    <li class="nav6"><a href="#" class="social-item"></a></li>   
+                </ul>
+            </div>
+
+            <div class="col col-4 twitter">
+                <h5 class="footer-heading">Our Twitter</h5>
+                <div class="twitter-text bt-1">     
+                    <p><a href="">@travel</a> Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    <p class="font-12">5 minutes ago</p>
+                </div>
+
+                <div class="twitter-text">     
+                    <p><a href="">@leo</a> Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    <p class="font-12">2 days ago</p>
+                </div>
+            </div>
+
+            <div class="col col-4">
+                <h5 class="footer-heading">Newsletter</h5>
+                <p class="newsletter-p">Inspiration, ideas, news and your feedback.</p>
+                <input type="email" name="" id="" class="newsletter-email" placeholder="Email Address">
+                <input type="submit" value="SUBMIT" class="red-btn">
+                <a class="footer-phone" href="">(+84) 28. 38 12 17 19</a>
+                <a class="footer-email" href="">info@123corp.vn</a>
+            </div>
+        </div>
+        <!-- end footer -->
+
+        <!-- start copyright -->
+        <ul id="copyright">
+            <li>Copyright © 2021 <a class="fw-b" href="#">Helen</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a class="bd-n" href="#">Contact Support</a></li>
+        </ul>
+        <!-- end copyright -->
+
+        <!-- btn up -->
+        <a class="gotop-btn" href="#header-contact"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <script src="./assets/js/parallax.js"></script>
+    <script src="./assets/js/textbanner.js"></script>
+    <script src="./assets/js/tabService.js"></script>
+</body>
+</html>
